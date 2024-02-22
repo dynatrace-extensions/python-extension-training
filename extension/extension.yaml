@@ -1,0 +1,17 @@
+name: custom:test-ext
+version: 0.0.1
+minDynatraceVersion: "1.253"
+author:
+  name: "Dynatrace"
+
+python:
+  runtime:
+    module: test_ext
+    version:
+      min: "3.9"
+
+  activation:
+    remote:
+      path: activationSchema.json
+    local:
+      path: activationSchema.json
