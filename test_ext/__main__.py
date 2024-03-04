@@ -1,6 +1,7 @@
 from dynatrace_extension import Extension, Status, StatusValue
 
-from helpers.utils import greet
+from test_ext.helpers.utils import greet
+from test_ext.helpers.api import get_fact
 
 
 class ExtensionImpl(Extension):
@@ -37,7 +38,8 @@ class ExtensionImpl(Extension):
 
 
 def main():
-    ExtensionImpl().run()
+    # ExtensionImpl().run()
+    get_fact()
 
 
 if __name__ == '__main__':
