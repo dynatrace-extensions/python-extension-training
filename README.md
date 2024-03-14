@@ -9,14 +9,14 @@ Extension Framework 2.0.
 ## How is this repo structured?
 
 This repository is structured as a Visual Studio Code workspace.
-Each separate fodler is a project within the same workspace. Each folder
+Each separate folder is a project within the same workspace. Each folder
 has its own Python virtual environment, where applicable.
 
 ### How come this works?
 
 * Visual Studio Code relies on 2 files in the root directory of the repository:
-  * `python-extension-training.code-workspace` tells is which projects are considered part of the workspace
-  * `.vscode/settings.json` tells it to exclude certain folders from the root view
+  * `python-extension-training.code-workspace` tells it which projects are considered part of the workspace; and
+  * `.vscode/settings.json` tells it to exclude certain folders from the root view.
 * Each individual project has its own `.vscode` directory with the `settings.json` file, which specifies
   * Which fiels to exclude (example: `__pycache__` cache files); and
   * Where to find a Python interpreter for the specific project folder.
