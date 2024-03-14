@@ -21,7 +21,7 @@ has its own Python virtual environment, where applicable.
   * Which fiels to exclude (example: `__pycache__` cache files); and
   * Where to find a Python interpreter for the specific project folder.
 
-## Hot to work with this repository?
+## How to work with this repository?
 
 1. Clone it.
 2. Open the `python-extension-training.code-workspace` file with VS Code.
