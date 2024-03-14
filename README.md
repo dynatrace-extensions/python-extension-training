@@ -54,4 +54,10 @@ has its own Python virtual environment, where applicable.
 
    See official Python docs on [how to activate a virtual environment on different platforms](https://docs.python.org/3/library/venv.html#how-venvs-work).
 
-7. That's it!
+7. Install requirements for that specific virtual environment.
+
+   ```shell
+   pip install -r requirements.txt
+   ```
+
+8. That's it!
