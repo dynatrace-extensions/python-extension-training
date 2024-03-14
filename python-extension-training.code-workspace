@@ -1,0 +1,15 @@
+{
+	"folders": [
+		{
+			"path": "reports-web-service"
+		},
+		{
+			"path": "test-extension"
+		},
+		{
+			"name": "root",
+			"path": "."
+		}
+	],
+	"settings": {}
+}
